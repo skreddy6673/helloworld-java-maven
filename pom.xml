@@ -38,13 +38,22 @@
 	</plugins>
 	</build>
   
-<distributionManagement>
-    <repository>
-        <id>4df46e30af4e</id>
-        <name>4df46e30af4e-releases</name>
-        <url>http://13.127.229.164:8081/artifactory/list/jenkins/</url>
+   <distributionManagement>
+  
+  
+	<repository>
+    <id>releases</id>
+    <url>http://34.224.164.212:8081/nexus/content/repositories/p1/</url>
     </repository>
-</distributionManagement>
+    
+	<snapshotRepository>
+    <id>snapshots</id>
+    <url>http://34.224.164.212:8081/nexus/content/repositories/p1-snap//</url>
+    </snapshotRepository>
+  
+  
+  </distributionManagement>
+  
 
 
 
